@@ -1,12 +1,12 @@
 import React from "react";
-import US from "../assets/QS DELUXE.jpg";
+
 import "../styles/About.css";
 function About() {
   return (
     <div className="about">
       <div
         className="aboutTop"
-        style={{ backgroundImage: `url(${US})` }}
+        style={{ backgroundImage: `url()` }}
       ></div>
       <div className="aboutBottom">
         <h1> ABOUT US</h1>

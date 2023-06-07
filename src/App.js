@@ -6,23 +6,24 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
+
 function App() {
   return (
-    
-      <Router>
+    <div style={{backgroundImage:`url(./QS_DELUXE.jpg)`,
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "cover"
+    }}>   
+    <Router>
       <div className="App">
-      <Navbar />
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route exact path="/about" element={<About/>} />
-          <Route exact path="/contact" element={<Contact/>} />
-
-        
+          <Route path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
-      <Footer />
+        <Footer />
       </div>
-      </Router>
-    
+    </Router></div>    
   );
 }
 

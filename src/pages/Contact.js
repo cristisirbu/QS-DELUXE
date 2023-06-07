@@ -1,13 +1,14 @@
 import React from "react";
-import DELUXE from "../assets/QS DELUXE.jpg";
+
 import "../styles/Contact.css";
+
 
 function Contact() {
   return (
     <div className="contact">
       <div
         className="leftSide"
-        style={{ backgroundImage: `url(${DELUXE})` }}
+        style={{ backgroundImage: `url()` }}
       ></div>
       <div className="rightSide">
         <h1> Contact Us</h1>
