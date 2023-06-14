@@ -1,6 +1,6 @@
 .contact {
     width: 100%;
-    height: 90vh;
+    height: 0vh;
     display: flex;
   }
   
@@ -37,25 +37,27 @@
   }
   
   form input {
+    margin-left: auto;
     height: 40px;
-    width: 80%;
+    width: 40%;
     border: none;
     border-bottom: 1px solid #ffffff;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
   }
   
   form textarea {
+    margin-left: auto;
     margin-top: 15px;
     height: 70px;
-    width: 80%;
+    width: 40%;
     border: none;
     border-bottom: 1px solid #ffffff;
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
   }
   input::placeholder,
   textarea::placeholder {
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(3, 2, 2);
     font-family: Arial, Helvetica, sans-serif;
   }
   form input:focus,
@@ -64,18 +66,19 @@
   }
   
   form label {
+    margin-left: 170px;
     margin-top: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 252, 252);
   }
   
   form button {
+    margin-left: auto;
     margin-top: 40px;
     width: 140px;
     height: 40px;
     border: none;
     background-color: #000000;
-    color: whitesmoke;
+    color: rgb(255, 249, 249);
     font-size: 15px;
     cursor: pointer;
   }
-  

@@ -5,7 +5,7 @@ function Home() {
   return (
     
       <div className="headerContainer">
-        <h1>Constructor</h1>
+      
       </div>
     
     
